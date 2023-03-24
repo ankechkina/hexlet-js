@@ -1,15 +1,21 @@
 {
-	"name": "hexlet",
-	"version": "1.0.0",
-	"type": "module",
-	"description": "Мой первый проект на Хекслете",
-	"main": "index.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"author": "Anastasia Kechkina",
-	"license": "ISC",
-	"dependencies": {
-		"lodash": "^4.17.21"
-	}
+  "name": "hexlet",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Мой первый проект на Хекслете",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anastasia Kechkina",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "eslint": "^8.36.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "prettier": "^2.8.7"
+  }
 }
